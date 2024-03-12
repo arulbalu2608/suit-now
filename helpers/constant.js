@@ -179,7 +179,7 @@ export const strings = {
         path: Fashion8,
       },
       {
-        id: 8,
+        id: 9,
         path: Fashion9,
       },
     ],
