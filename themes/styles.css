@@ -1,0 +1,26 @@
+.swiper-arrow-disabled {
+    opacity: 0.5
+}
+
+.swiper-arrow-left,
+.swiper-arrow-right,
+.trending-swiper-arrow-left,
+.trending-swiper-arrow-right,
+.landing-swiper-arrow-right,
+.landing-swiper-arrow-left {
+    border: 1px solid rgb(245, 236, 236);
+}
+
+.swiper-bullet,
+.trending-swiper-bullet,
+.landing-swiper-bullet {
+    margin: 0px 10px;
+}
+
+.swiper-pagination-bullet {
+    background-color: black;
+}
+
+.swiper-pagination-horizontal {
+    width: auto !important;
+}

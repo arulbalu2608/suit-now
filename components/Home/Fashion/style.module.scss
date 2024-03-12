@@ -1,0 +1,28 @@
+.imageContainer {
+    display: grid;
+    grid-template-areas:
+        'fashion fashion . . '
+        'fashion fashion . . ';
+    gap: 24px 24px;
+}
+
+.fashionPicsItems{
+    text-align: center;
+}
+
+.fashionPicsItems:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fashionPicsItems:nth-child(1) {
+    grid-area: fashion;
+}
+
+.imageStyle {
+    width: 100%;
+    height: auto;
+}
+
+.brandContainer{
+    text-align: center;
+    margin: 8rem 0;
+}

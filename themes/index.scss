@@ -1,0 +1,12 @@
+@import "./functions.scss";
+@import "./variables.scss";
+@import './styles.css';
+
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+img{
+    -webkit-user-drag: none;
+}

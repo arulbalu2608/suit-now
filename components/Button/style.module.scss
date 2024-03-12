@@ -1,0 +1,28 @@
+@import "@/themes/variables.scss";
+
+.primary {
+    // width: 100%;
+    color: $PRIMARY_BLACK;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    background-color: $WHITE;
+    padding: 10px 30px;
+    border: 1px solid $PRIMARY_BLACK;
+}
+
+.secondary {
+    color: $PRIMARY_BLACK;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    background-color: $WHITE;
+    border: none;
+}
+
+.primary:active {
+    background-color: $WHITE;
+    box-shadow: 0 3px #666;
+    transform: translateY(0.5px);
+}
+

@@ -1,0 +1,41 @@
+@import "../../../themes/variables.scss";
+
+.discountContainer{
+    background-color: $PRIMARY_BLACK;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title{
+    color: $WHITE;
+    font-size: 48px;
+    font-weight: 800;
+}
+.join{
+    color: $WHITE;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.inputStyle{
+    padding: 15px;
+    height: 60px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.inputStyle::placeholder{
+    color: $BLACK_2F;
+    font-size: 16px;
+}
+
+.arrowContainer{
+    display: inline-block;
+   padding: 16px 26px;
+    cursor: pointer;
+    background: $BLACK_40
+;
+}
