@@ -1,17 +1,16 @@
 import { Lato } from "next/font/google";
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import Navbar from "@/components/Navbar";
-import "@/themes/index.scss"
+import "@/themes/index.scss";
 import Footer from "@/components/Footer";
 
 const lato = Lato({
-  weight: '400',
-  subsets: ['latin'],
-})
-
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Suit-Now",
